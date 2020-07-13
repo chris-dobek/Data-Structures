@@ -11,7 +11,7 @@ class Node:
         return self.next
         # returns what is pointed at by the node's 'next' reference
     
-    def set_next(self):
+    def set_next(self, new_next):
         self.next = new_next
         # returns this node's 'next' reference to 'new_next'
 
