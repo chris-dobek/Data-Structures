@@ -77,7 +77,7 @@ class LinkedList:
             return None
         
         max_value = self.head.get_value()
-        current = self.head.get_value()
+        current = self.head.get_next()
 
         while current:
             if current.get_value() > max_value:
